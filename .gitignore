@@ -1,86 +1,68 @@
-# Miscellaneous
-*.class
+```
+# Build artifacts
+build/
+dist/
+*.apk
+*.aab
+*.app
+*.dmg
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
-*.pyc
-*.swp
+
+# OS generated files
 .DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
+Thumbs.db
 
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
+# IDE specific
+.vscode/
 .idea/
+*.swp
+*.swo
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-/build/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Web related
+# Temporary files
+*.tmp
+*.temp
+*.bak
 
-# Symbolication related
-app.*.symbols
+# MyPy
+.mypy_cache/
 
-# Obfuscation related
-app.*.map.json
+# Pytest
+.pytest_cache/
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Gradle
+.gradle/
+build/
 
-*.pkg.tar.zst
-/aur-struct/*.tar
-/aur-struct/src
-/aur-struct/pkg
-
-/deb-struct/usr
-/linux/packaging/deb/usr
-
-/AppDir
-/appimage-builder-cache
-*.AppImage
-
-/.flatpak
-/.flatpak-builder
-
-/iscc
-installer.exe
-
-/choco-struct/tools/*.exe
-
-# secrets
-*.env
-lib/collections/env.g.dart
-help.txt
-
-dist
-appimage-build
-
-android/key.properties
-
-**/pb_data
-
-tm.json
-
-# FVM Version Cache
-.fvm/
-
-android/build
-android/app/.cxx
+# Android
+.gradle/
+local.properties
+.settings/
+```

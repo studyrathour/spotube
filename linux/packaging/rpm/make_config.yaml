@@ -19,7 +19,7 @@ requires:
   - webkit2gtk4.1
   - libsoup3
 
-display_name: Spotube
+display_name: Veera Music
 
 keywords:
   - Music

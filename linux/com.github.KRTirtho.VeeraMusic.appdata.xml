@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.github.KRTirtho.Spotube</id>
-  <name>Spotube</name>
+  <id>com.github.KRTirtho.VeeraMusic</id>
+  <name>Veera Music</name>
   <summary>
     Freedom of music
   </summary>
@@ -19,7 +19,7 @@
   <description>
     <p>Open source music client that doesn't require Premium nor uses Electron! Available for
       both desktop &amp; mobile!</p>
-    <p>Following are the features that currently spotube offers:</p>
+    <p>Following are the features that currently Veera Music offers:</p>
     <ul>
       <li>🚫 No ads, thanks to the use of public &amp; free music metadata providers and YT Music
         APIs¹</li>
@@ -39,10 +39,10 @@
       <image type="source">
         https://rawcdn.githack.com/KRTirtho/spotube/refs/heads/master/assets/branding/spotube-screenshot.png
       </image>
-      <caption>Spotube screenshot</caption>
+      <caption>Veera Music screenshot</caption>
     </screenshot>
   </screenshots>
-  <launchable type="desktop-id">com.github.KRTirtho.Spotube.desktop</launchable>
+  <launchable type="desktop-id">com.github.KRTirtho.VeeraMusic.desktop</launchable>
   <releases> %{{APPDATA_RELEASE}}% <release version="2.6.0" date="2022-12-09" />
     <release
       version="2.5.0" date="2022-10-13" />
