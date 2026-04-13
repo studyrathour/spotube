@@ -1,9 +1,9 @@
-name: spotube
+name: veera_music
 description: Open source extensible music streaming platform and app, based on BYOMM (Bring your own music metadata) concept
 
 publish_to: "none"
 
-version: 5.1.1+44
+version: 1.0.0+1
 
 homepage: https://spotube.krtirtho.dev
 repository: https://github.com/KRTirtho/spotube

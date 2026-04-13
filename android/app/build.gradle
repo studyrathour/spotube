@@ -92,21 +92,21 @@ android {
     productFlavors {
         nightly {
             dimension "default"
-            resValue "string", "app_name_en", "Spotube Nightly"
+            resValue "string", "app_name_en", "Veera Music Nightly"
             applicationIdSuffix ".nightly"
             versionNameSuffix "-nightly"
             signingConfig signingConfigs.release
         }
         dev {
             dimension "default"
-            resValue "string", "app_name_en", "Spotube Dev"
+            resValue "string", "app_name_en", "Veera Music Dev"
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
             signingConfig signingConfigs.release
         }
         stable {
             dimension "default"
-            resValue "string", "app_name_en", "Spotube"
+            resValue "string", "app_name_en", "Veera Music"
             signingConfig signingConfigs.release
         }
     }
