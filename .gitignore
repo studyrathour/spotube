@@ -1,68 +1,47 @@
 ```
-# Build artifacts
-build/
-dist/
-*.apk
-*.aab
-*.app
-*.dmg
-*.deb
-*.rpm
-*.zip
-*.tar.gz
+# CI/CD
+.github/
 
-# Dependencies
-node_modules/
-vendor/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Python
+# Dependencies
+node_modules/
+.venv/
+venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Coverage
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
 .coverage
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Gradle
-.gradle/
+# Build artifacts
+dist/
 build/
+target/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Android
-.gradle/
-local.properties
-.settings/
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
